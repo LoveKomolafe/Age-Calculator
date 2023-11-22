@@ -1,0 +1,102 @@
+body {
+    @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&display=swap');
+    background-color: #edebeb;
+}
+
+
+.age-calc-card {
+    background-color: #fff;
+    border-radius: 10px;
+    border-bottom-right-radius: 96px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    margin: 10% auto;
+    max-width: 400px;
+    max-height: 350px;
+    padding: 20px;
+    text-align: center;
+    width: 90%;
+}
+
+
+.day-month-year {
+    display: flex;
+    gap: 40px;
+    text-align: left;
+    margin: 0px;
+}
+
+div.svg-container{
+    text-align: right;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+hr.hr {
+    position: relative;
+    z-index: 1;
+    top: 35px;
+    bottom: 0px;
+    text-align: left;
+    border: 1px solid rgb(200, 200, 198);
+    margin: 0px;
+    padding: 0px;
+    width: 84%;
+}
+
+.my-svg {
+    size: 80px;
+}
+
+
+
+h5 {
+    font-family: Poppins, sans-serif;
+    font-size: 8px;
+    font-weight: 600;
+    color: rgb(137, 137, 135);
+    margin: 0px;
+    padding: 0px;
+}
+
+input {
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(137, 137, 135);
+    margin: 0px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border: 2px solid rgb(200, 200, 198);
+    border-radius: 4px;
+    width: 60%;
+    outline: none;
+}
+
+input::placeholder {
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(137, 137, 135);
+    margin: 0px;
+    padding: 0px;
+}
+
+div.output {
+    display: grid;
+    margin: 0px;
+    text-align: left;
+}
+
+.colored-hyphen {
+    font-family: Poppins, sans-serif;
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.colored-hyphen::before {
+    content: attr(data-content) ;
+    color: rgb(187, 36, 187);
+    
+}
